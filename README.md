@@ -1,5 +1,5 @@
 # Adhi's AI Gym Coach 🏋️‍♂️🤖
-
+ Deployed link : https://adhis-ai-gym-coach.streamlit.app/
 > **Real-Time Edge Computer Vision & Intelligent Biomechanical Form Coaching**  
 > *Developed by Adhi as a Final-Year B.Tech Capstone Project in Artificial Intelligence & Machine Learning.*
 
