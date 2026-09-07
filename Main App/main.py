@@ -12,7 +12,12 @@ try:
     if _env_path.exists():
         load_dotenv(dotenv_path=_env_path, override=False)
 except ImportError:
-    pass  # python-dotenv not installed; keys must come from st.secrets or environment
+    pass
+
+import sys
+_APP_DIR = Path(__file__).resolve().parent
+if str(_APP_DIR) not in sys.path:
+    sys.path.insert(0, str(_APP_DIR))
 
 from services.auth.login_wall import render_login_wall
 from services.state.session_defaults import initial_session_defaults
