@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adhi's AI Gym Coach — Real-Time Form Analysis & Intelligent Coaching</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @font-face {
+        font-family: "Averta";
+        src: url("fonts/Averta.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- GRID OVERLAY -->
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="nav-logo">
+        <span class="logo-bracket">(</span>ADHI'S AI GYM COACH<span
+          class="logo-bracket"
+          >)</span
+        >
+      </div>
+      <div class="nav-links">
+        <a href="#transformations">Transformations</a>
+        <a href="#contact">Developer</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-tag">
+        <span class="dot"></span>
+        <span>AI-POWERED · REAL-TIME · GYM COACH</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="line-one">REAL-TIME</span>
+        <span class="line-two">ADHI'S AI GYM<br />COACH</span>
+      </h1>
+
+      <p class="hero-sub">
+        Your form. Analyzed. Corrected. In real-time.<br />
+        Deep learning computer vision that tracks every joint angle and provides proactive voice coaching.
+      </p>
+
+      <div class="hero-cta-row">
+        <a
+          href="http://localhost:8501"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary"
+          id="cta-button"
+        >
+          <span>Launch AI Coach</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path
+              d="M3 8H13M13 8L9 4M13 8L9 12"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <a href="#transformations" class="btn-ghost">VIEW TRANSFORMATIONS ↓</a>
+      </div>
+
+      <!-- Live metrics strip -->
+      <div class="metrics-strip">
+        <div class="metric">
+          <span class="metric-val">&lt;45<span class="unit">ms</span></span>
+          <span class="metric-label">Pipeline Latency</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-val">5<span class="unit"></span></span>
+          <span class="metric-label">Core Exercises</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-val">33<span class="unit"> Pts</span></span>
+          <span class="metric-label">3D Pose Tracking</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRANSFORMATION SECTION -->
+    <section class="transformations-section" id="transformations">
+      <div class="section-header center-header">
+        <span class="section-tag">// PROVEN RESULTS</span>
+        <h2 class="section-title">Adhi's Personal<br /><em>Transformation</em></h2>
+        <p class="section-desc">
+          Real results powered by AI biomechanical precision and progressive overload tracking.
+        </p>
+      </div>
+
+      <div class="tf-compare-container">
+        <!-- Before Card -->
+        <div class="tf-card tf-before">
+          <div class="tf-badge tf-badge-before">📸 BEFORE · Baseline</div>
+          <div class="tf-img-wrapper">
+            <img src="./IMGs_add_your_own/transformations/adhi_before_1.png" alt="Adhi Before Transformation Baseline" />
+          </div>
+          <div class="tf-details">
+            <div class="tf-metric-tag">Starting Composition</div>
+            <p>Casual lifestyle baseline · Higher body fat percentage · Pre-AI Form Coaching.</p>
+          </div>
+        </div>
+
+        <!-- VS Divider -->
+        <div class="tf-vs-badge">
+          <span>VS</span>
+        </div>
+
+        <!-- After Card -->
+        <div class="tf-card tf-after">
+          <div class="tf-badge tf-badge-after">✨ AFTER · Shredded &amp; Hypertrophied</div>
+          <div class="tf-img-wrapper">
+            <img src="./IMGs_add_your_own/transformations/adhi_after_side.jpg" alt="Adhi After Transformation Showcase" />
+          </div>
+          <div class="tf-details">
+            <div class="tf-metric-tag">Peak Conditioning</div>
+            <p>11.2% Body fat · V-taper symmetry · Strict AI joint-angle form guard &amp; progressive overload.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <span class="section-tag">// DEVELOPER & RESEARCH</span>
+        <h2 class="contact-title">
+          Engineering Intelligence.<br /><em>Advancing Human Performance.</em>
+        </h2>
+        <p class="contact-desc">
+          Created by <strong>Adhi</strong> as a Final-Year B.Tech AI/ML Capstone Project.<br />
+          Open-source, strictly benchmarked, and architected for edge deployment.
+        </p>
+
+        <div class="social-grid">
+          <!-- Email Contact -->
+          <a
+            href="mailto:mogiliadieshwarreddy5919@gmail.com"
+            class="social-btn"
+            aria-label="Email Contact"
+            style="grid-column: 1 / -1; justify-content: center; gap: 12px; border-color: rgba(245, 166, 35, 0.4); background: rgba(245, 166, 35, 0.06);"
+          >
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </span>
+            <span class="social-label" style="text-transform: none; font-size: 13px; color: #f5a623;">mogiliadieshwarreddy5919@gmail.com</span>
+          </a>
+
+          <!-- Project GitHub -->
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noopener"
+            class="social-btn"
+            aria-label="GitHub"
+          >
+            <span class="social-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                width="22"
+                height="22"
+              >
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+            </span>
+            <span class="social-label">Repository</span>
+          </a>
+
+          <!-- App Demo -->
+          <a
+            href="http://localhost:8501"
+            target="_blank"
+            rel="noopener"
+            class="social-btn"
+            aria-label="App Demo"
+          >
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </span>
+            <span class="social-label">Live App</span>
+          </a>
+
+          <!-- Documentation -->
+          <a
+            href="#hero"
+            class="social-btn"
+            aria-label="Architecture Docs"
+          >
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </span>
+            <span class="social-label">Overview</span>
+          </a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <span>© 2026 Adhi's AI Gym Coach — Real-Time Pose Estimation & Intelligent Biomechanical Coaching</span>
+      </footer>
+    </section>
+  </body>
+</html>

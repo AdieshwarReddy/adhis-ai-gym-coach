@@ -1,0 +1,29 @@
+# Python & Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment & Secrets
+.env
+*.env
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+myenv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database
+Main App/data.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & temp
+*.log
+ref_repo/
+fix_api.py

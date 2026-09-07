@@ -1,0 +1,239 @@
+/* =========================================================
+   GLOBAL THEME
+========================================================= */
+
+.stApp {
+  background-color: #0A0D14;
+  color: #fff;
+}
+
+[data-testid="stSidebar"] {
+  background-color: #111520;
+}
+
+/* =========================================================
+   TYPOGRAPHY (SCOPED – safer)
+========================================================= */
+
+.block-container,
+.block-container * {
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   LAYOUT
+========================================================= */
+
+.block-container {
+  padding: 50px 3rem !important;
+  max-width: 750px !important;
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+button,
+.stButton button,
+.stDownloadButton button,
+.MuiBox-root button {
+  background-color: #181D2A !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   INPUTS & TEXT ELEMENTS
+========================================================= */
+
+input,
+textarea,
+p,
+li,
+code,
+[data-testid="stSelectbox"] > div > div,
+[data-baseweb="select"] > div,
+[data-baseweb="popover"] ul,
+[data-baseweb="menu"] {
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   METRICS
+========================================================= */
+
+[data-testid="stMetric"] {
+  background-color: #181D2A;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1rem 1.2rem;
+  border-radius: 0;
+}
+
+[data-testid="stMetric"] div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+[data-testid="stMetricValue"] {
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
+
+[data-testid="stMetricLabel"] {
+  font-size: 15px !important;
+  opacity: 0.6;
+}
+
+[data-testid="stMetric"] div label p {
+  font-size: 16px !important;
+}
+
+/* =========================================================
+   CONTAINERS / CARDS
+========================================================= */
+
+.stContainer,
+.stExpander,
+.stTabs,
+.stColumns,
+.stPopover,
+.stAlertContainer,
+.stStatusContainer,
+.stMetric,
+.stTable,
+.stDataFrame,
+.stForm,
+.stSelectbox,
+[data-baseweb="select"] > div,
+[data-testid="stForm"],
+[data-testid="stMetric"],
+[data-testid="stNumberInputContainer"],
+[data-testid="stDataFrameColumnMenu"],
+[data-testid="stHeadingWithActionElements"],
+[data-testid="stCaptionContainer"] p,
+[data-testid="stAlertContentInfo"] p,
+[data-testid="stSidebarNavLink"],
+[data-testid="stMarkdownContainer"] h3,
+[data-baseweb="popover"],
+[data-baseweb="menu"],
+div[role="menu"],
+div[role="menuitem"] {
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   DATAFRAME FIX
+========================================================= */
+
+.stDataFrame,
+.stDataFrame div,
+.stDataFrameGlideDataEditor {
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   INTERACTIVE ELEMENTS
+========================================================= */
+
+.stTextInput,
+.stTextArea,
+.stNumberInput,
+.stSlider,
+.stMultiselect,
+.stRadio,
+.stCheckbox,
+.stToggle,
+.stFileUploader,
+.stColorPicker,
+.stDateInput,
+.stTimeInput,
+.stCameraInput,
+[data-testid="stTextInput"] > div,
+[data-testid="stButton"] button,
+[data-testid="stBaseButton-secondaryFormSubmit"],
+[data-testid="stStatusWidget"] {
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   MARKDOWN
+========================================================= */
+
+[data-testid="stMarkdownContainer"] strong {
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.stForm {
+  margin-top: 2rem !important;
+  padding: 1.5rem 1rem !important;
+  background-color: #181D2A !important;
+  color: #fff;
+}
+
+/* =========================================================
+   MOBILE RESPONSIVENESS & CARDIO STYLES
+========================================================= */
+
+@media (max-width: 768px) {
+  .block-container {
+    padding: 20px 1rem !important;
+    max-width: 100% !important;
+  }
+
+  /* Thumb-friendly touch targets */
+  button,
+  .stButton button {
+    min-height: 48px !important;
+    font-size: 1rem !important;
+    padding: 12px 16px !important;
+  }
+
+  /* Big readable metrics on mobile outdoors */
+  [data-testid="stMetricValue"] {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+  }
+
+  [data-testid="stMetricLabel"] {
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Cardio Outdoor High-Contrast Cards */
+.cardio-hud-box {
+  background: linear-gradient(135deg, #111520 0%, #171d2b 100%);
+  border: 1px solid rgba(14, 207, 181, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.cardio-pace-highlight {
+  color: #0ecfb5;
+  font-size: 2.4rem;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+/* Transformation Before & After Cards */
+.transformation-card {
+  background: #111520;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
